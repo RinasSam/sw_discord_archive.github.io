@@ -1,0 +1,95 @@
+* {
+ font-size: 100%;
+ font-family: Noto Sans;
+}
+
+a:link {
+  color: #006eff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+	color: blueviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: violet;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+    color: white;
+    background-color:#262d3a;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+li a {
+    display: block;
+    width: 167px;
+    padding: 8px 16px;
+    background-color: #161a22;
+}
+
+li a:hover{
+    background-color: #7990b9;
+    color: black;
+}
+
+.active {
+    background-color: #004482;
+    color: white;
+}
+
+.active a:visited {
+    color: white;
+}
+
+.main {
+    margin-left: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #161a22;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    height: 100%; /* Full height */
+
+    top: 0;
+    left: 0;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:link {
+   
+    color: white;
+}
+
+nav img {
+    display: block;
+    margin-top: 320px;
+    margin-right: 0px;
+}
